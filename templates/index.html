@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>"Little Women": All Grown Up</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../static/css/style.css">
+    </head>
+
+    <body>
+        <center>
+            <h1>"Little Women": All Grown Up</h1>
+            <form name="prefixForm" id="prefixForm" method="POST" action="/gpt2">
+                <textarea name="prefix" id="prefixTextBox" rows="4" cols="100" placeholder="Where are they now? Submit some text to find out!" required></textarea>
+                <p></p>
+                <button name="submitButton" id="submitButton" type="submit" onclick="submit()">Submit</button>
+            </form>
+            {% if result %}
+            <p></p>
+            <textarea name="generatedText" id="generatedTextBox" rows="12" cols="100">{{result.generated_text}}...</textarea>
+            {% endif %}
+        </center>
+        
+        <script>
+            $("#prefixForm").submit(function (){
+                document.getElementById("prefixForm").submit();
+            });
+            function submit(){
+                document.getElementById("prefixForm").submit();
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,42 @@
+body {
+    background-image: url('../images/background.jpeg');
+    background-size : cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: forestgreen;
+    font-size: 42px;
+}
+
+#prefixTextBox {
+    resize: none;
+    font-size: 14px;
+    line-height: 24px;
+    color: seagreen;
+    border: 2px burlywood;
+}
+
+#generatedTextBox {
+    resize: none;
+    font-size: 14px;
+    line-height: 24px;
+    color: seagreen;
+    border: 2px burlywood;
+}
+
+#submitButton {
+    backface-visibility: hidden;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    white-space: nowrap;
+    background: saddlebrown;
+    border-radius: 5px;
+    border: 1px solid saddlebrown;
+    border-width: 1px 1px 1px 1px;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    font-size: 14px;
+    font-family: Verdana;
+}
