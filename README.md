@@ -8,6 +8,7 @@
 ![Training GPT-2 Model](https://user-images.githubusercontent.com/58890196/152674448-71c511d7-ef31-4025-ba8a-19cd7608e648.png)
 
 ### Downloading Trained Model and Generating Text
+![Downloading and Generating Text Logs](https://user-images.githubusercontent.com/58890196/153735968-fc2b8f12-5959-488c-933e-371c0ed384e9.jpg)
 
 
 ### Browser Homepage
